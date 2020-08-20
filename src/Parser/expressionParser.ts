@@ -12,8 +12,8 @@ const expressionGrammar = `
       if (element[0] === "/") { return result / element[1] }
     }, head)
   }
-  Factor = "(" expr:Expression ")" { return expr } / Integer
-  Integer = [0-9]+ { return parseInt(text(), 10) }
+  Factor = "(" expr:Expression ")" { return expr } / Float
+  Float = ([0-9]*[.])?[0-9]+ { return parseFloat(text()) }
 `;
 const parser = peg.generate(expressionGrammar);
 module.exports = parser;
