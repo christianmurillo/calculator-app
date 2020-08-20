@@ -17,7 +17,7 @@ export const Buttons: React.FC<{
       display: "CE",
       value: "CE",
       onClick() {
-        console.info("clicked CE");
+        setExpression(expression.substring(0, expression.length - 1));
       }
     },
     {
