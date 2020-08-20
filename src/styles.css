@@ -18,11 +18,11 @@ body {
   float: left;
   padding: 15px;
 }
-/* For mobile phones: Application is designed for mobile phones, so every
-** column is the full width of the screen
+/* For mobile phones: Application is designed for mobile phones, every
+** column is 25% width of the screen
 */
 [class*="col-"] {
-  width: 100%;
+  width: 25%;
 }
 
 /*****MEDIA QUERIES******/
