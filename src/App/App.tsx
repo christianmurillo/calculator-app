@@ -3,6 +3,7 @@ import "./App.css";
 import { Options } from "../Options/Options";
 import { Screen } from "../Screen/Screen";
 import { Buttons } from "../Buttons/Buttons";
+import { Footer } from "../Footer/Footer";
 
 const parser = require("../Parser/expressionParser");
 
@@ -27,6 +28,7 @@ export const App: React.FC = () => {
         setExpression={setExpression}
         handleCalculation={handleCalculation}
       />
+      <Footer />
     </div>
   );
 };
