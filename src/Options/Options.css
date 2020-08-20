@@ -2,3 +2,6 @@
   font-size: 2em;
   margin-left: 20px;
 }
+.Options i {
+  cursor: not-allowed;
+}
