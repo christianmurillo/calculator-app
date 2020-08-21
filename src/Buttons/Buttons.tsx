@@ -17,7 +17,9 @@ export const Buttons: React.FC<{
       display: "CE",
       value: "CE",
       onClick() {
-        setExpression(expression.substring(0, expression.length - 1));
+        if (expression && expression.length > 0) {
+          setExpression(expression.substring(0, expression.length - 1));
+        }
       }
     },
     {
