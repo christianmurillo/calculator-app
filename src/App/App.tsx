@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "./App.css";
-import { Options } from "../Options/Options";
 import { Screen } from "../Screen/Screen";
 import { Buttons } from "../Buttons/Buttons";
 import { Footer } from "../Footer/Footer";
