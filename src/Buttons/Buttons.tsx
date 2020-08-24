@@ -93,7 +93,7 @@ export const Buttons: React.FC<{
       }
     },
     {
-      display: "X",
+      display: "*",
       value: "*",
       onClick(token: string) {
         handleClick(token);
