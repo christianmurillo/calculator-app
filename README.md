@@ -1,4 +1,4 @@
 # calculator-app
 
 - Created with CodeSandbox
-- React TypeScript project
+- React Functional Component TypeScript project
