@@ -1,5 +1,9 @@
 .App {
   font-family: "Ubuntu", sans-serif;
   max-width: 768px;
+  margin: auto;
+}
+
+.App .container {
   margin: 2px 10px 2px 10px;
 }

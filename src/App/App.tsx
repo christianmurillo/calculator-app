@@ -21,14 +21,15 @@ export const App: React.FC = () => {
   };
   return (
     <div className="App">
-      <Options />
-      <Screen expression={expression} />
-      <Buttons
-        expression={expression}
-        setExpression={setExpression}
-        handleCalculation={handleCalculation}
-      />
-      <Footer />
+      <div className="container">
+        <Screen expression={expression} />
+        <Buttons
+          expression={expression}
+          setExpression={setExpression}
+          handleCalculation={handleCalculation}
+        />
+        <Footer />
+      </div>
     </div>
   );
 };
